@@ -1,0 +1,54 @@
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "homebrew/cask-versions"
+tap "homebrew/cask-drivers"
+tap "heroku/brew"
+
+# ops
+brew "git"
+brew "zsh"
+brew "gnupg"
+brew "zsh-completions"
+
+# very necessary tools
+brew "wget"
+brew "mas"
+brew "htop"
+brew "neofetch"
+
+# productivity
+brew "exa"
+brew "fd"
+brew "hexyl"
+brew "typora"
+
+# dev
+brew "mysql@5.7"
+brew "sqlite"
+brew "postgresql"
+brew "youtube-dl"
+brew "python@3.9"
+brew "python@3.7"
+brew "docker"
+brew "heroku"
+brew "node"
+brew "yarn"
+brew "wrk"
+
+if ENV.key? 'CI_MODE'
+# font
+cask "font-fira-code"
+
+cask "google-chrome"
+cask "visual-studio-code"
+cask "iterm2"
+cask "postgres"
+cask "dash"
+cask "rectangle"
+cask "dropbox"
+
+cask "spotify"
+cask "slack"
+end
