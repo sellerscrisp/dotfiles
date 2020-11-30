@@ -1,0 +1,18 @@
+[user]
+       	name = Sellers Crisp
+        email = sellershcrisp@gmail.com
+[core]
+        ignorecase = false
+        editor = nano
+[color]
+        ui = true
+[commit]
+        gpgsign = true
+[github]
+        user = sellerscrisp
+[alias]
+        sf = "! git switch $(git branch | fzf)"
+        sc = "switch -c"
+        sm = "switch master"
+        gc = "git commit -m"
+        ga = "git add"
