@@ -1,0 +1,37 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.languageServer": "Pylance",
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.sideBar.location": "left",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "git.enableCommitSigning": true,
+    "notebook.kernelProviderAssociations": [],
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "workbench.settings.editor": "json",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.pythonPath": "/usr/local/bin/python3",
+    "sqltools.format": {
+        "indentSize": 2, // changes indentation size when formatting queries
+        "reservedWordCase": "upper" // allowed null 'upper' | 'lower'
+    },
+    "editor.cursorBlinking": "solid",
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "off",
+    "emmet.triggerExpansionOnTab": true,
+    "zenMode.hideTabs": false,
+}
