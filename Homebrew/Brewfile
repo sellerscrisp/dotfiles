@@ -8,9 +8,8 @@ tap "heroku/brew"
 
 # ops
 brew "git"
-brew "zsh"
+brew "fish"
 brew "gnupg"
-brew "zsh-completions"
 
 # very necessary tools
 brew "wget"
@@ -25,17 +24,14 @@ brew "hexyl"
 brew "typora"
 
 # dev
-brew "mysql@5.7"
 brew "sqlite"
 brew "postgresql"
-brew "youtube-dl"
-brew "python@3.9"
-brew "python@3.7"
+brew "pyenv"
 brew "docker"
 brew "heroku"
 brew "node"
 brew "yarn"
-brew "wrk"
+brew "dokku/repo/dokku"
 
 if ENV.key? 'CI_MODE'
 # font
@@ -45,10 +41,15 @@ cask "google-chrome"
 cask "visual-studio-code"
 cask "iterm2"
 cask "postgres"
-cask "dash"
 cask "rectangle"
 cask "dropbox"
-
+cask "postman"
+cask "skype"
+cask "postman"
+cask "electrum"
+cask "zoomus"
+cask "notion"
+cask "nomachine"
 cask "spotify"
 cask "slack"
 end
